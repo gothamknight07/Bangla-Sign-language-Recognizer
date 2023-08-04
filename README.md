@@ -1,31 +1,11 @@
 # sign-language-gesture-recognition-from-video-sequences
 SIGN LANGUAGE GESTURE RECOGNITION FROM VIDEO SEQUENCES  USING RNN AND CNN
 
-The Paper on this work is published [here](https://link.springer.com/chapter/10.1007/978-981-10-7566-7_63) 
 
-Please do cite it if you find this project useful. :)
-
-**UPDATE:**
-
-- Cleaner and understandable code.
-- Replaced all manual editing with command line arguments.
-- Removed Bugs due to changes in names of the `operations` in the inception model.
-- Code Tested on a dummy dataset of three classes on google colab.
 
 ## DataSet Used
-* [Argentinian Sign Language Gestures](https://facundoq.github.io/datasets/lsa64/). The dataset is made available strictly for academic purposes by the owners. Please read the license terms carefully and cite their paper if you plan to use the dataset.
+* [Bangla Sign Language Gestures](https://www.kaggle.com/datasets/rayeed045/bangla-sign-language-dataset). The dataset is made available strictly for academic purposes by the owners. Please read the license terms carefully and cite their paper if you plan to use the dataset.
 
-## Requirements
-* Install [opencv](https://docs.opencv.org/trunk/d7/d9f/tutorial_linux_install.html).
-  Note: **pip install opencv-python** does not have video capabilities. So I recommend to build it from source as described above.
-* Install tensorflow:
-  ```shell
-  pip install tensorflow
-  ```
-* Install tflearn
-  ```shell
-  pip install tflearn
-  ```
 
 ## Training and Testing
 
